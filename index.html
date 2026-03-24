@@ -20,7 +20,7 @@
 <body class="bg-gray-100 text-gray-800 text-xl font-['Baloo_Da_2']">
     <!-- Introduction -->
     <div
-        class="bg-blue-200 w-19/20 mx-auto p-6 rounded-lg shadow-md mt-10 grid grid-cols-2 gap-6 items-center transition duration-300 ease-in-out hover:shadow-lg">
+        class="bg-blue-200 w-19/20 mx-auto p-6 rounded-t-lg shadow-md mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6 justify-center items-center transition duration-300 ease-in-out hover:shadow-lg">
         <div class="flex flex-col justify-center gap-1">
             <p class="text-2xl font-bold">Who I am?</p>
             I'm <br>
@@ -30,15 +30,15 @@
             <br>
             Let’s connect and build something exceptional together.
         </div>
-        <div>
-            <img class="w-full rounded-4xl" src="./assets/mhmoni.png" alt="Moziful Haque">
+        <div class="flex justify-center">
+            <img class="w-full max-w-md rounded-4xl" src="./assets/mhmoni.png" alt="Moziful Haque">
         </div>
     </div>
 
     <!-- Projects -->
-    <div class="bg-blue-200 w-19/20 mx-auto p-6 rounded-lg shadow-md mt-4 gap-6">
+    <div class="bg-blue-200 w-19/20 mx-auto p-6 shadow-md gap-6">
         <p class="text-2xl font-bold pb-4">What projects I have done?</p>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div
                 class="border-2 p-2 rounded-lg hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                 <img class="rounded-md" src="./assets/git.png">
@@ -63,59 +63,60 @@
     </div>
 
     <!-- Expertise -->
-    <div class="bg-blue-200 w-19/20 mx-auto p-6 rounded-lg shadow-md mt-4 gap-6">
+    <div class="bg-blue-200 w-19/20 mx-auto p-6 shadow-md flex flex-col justify-center gap-6">
         <p class="text-2xl font-bold pb-4">In which field I have expertise?</p>
-        <div class="grid grid-cols-3 gap-10 mt-4 justify-around">
+        <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-4 justify-center">
             <div
-                class="flex flex-col items-center gap-2 rounded-lg border-2 p-4 hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+                class="max-w-44 flex mx-auto flex-col items-center gap-2 rounded-lg border-2 p-4 hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                 <i class="fa-brands fa-html5 text-red-600 text-8xl"></i>
                 <p>HTML</p>
             </div>
             <div
-                class="flex flex-col items-center gap-2 rounded-lg border-2 p-4 hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+                class="max-w-44 flex mx-auto flex-col items-center gap-2 rounded-lg border-2 p-4 hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                 <i class="fa-brands fa-css text-blue-600 text-8xl"></i>
                 <p>CSS</p>
             </div>
             <div
-                class="flex flex-col items-center gap-2 rounded-lg border-2 p-4 hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+                class="max-w-44 flex mx-auto flex-col items-center gap-2 rounded-lg border-2 p-4 hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                 <i class="fa-brands fa-js text-yellow-500 text-8xl"></i>
                 <p>JavaScript</p>
+            </div>
+            <div
+                class="max-w-44 flex mx-auto flex-col items-center gap-2 rounded-lg border-2 p-4 hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+                <i class="fa-brands fa-react text-blue-500 text-8xl"></i>
+                <p>React</p>
             </div>
         </div>
     </div>
 
     <!-- Contact -->
-    <div class="bg-blue-200 w-19/20 mx-auto p-6 rounded-lg shadow-md my-4 gap-6">
+    <div class="bg-blue-200 w-19/20 mx-auto p-6 rounded-b-lg shadow-md mb-4 flex flex-col gap-6">
         <p class="text-2xl font-bold pb-4">Connect with me:</p>
-        <div class="grid grid-cols-3 gap-10 mt-4 justify-around items-center">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-4 justify-center items-center">
             <a class="flex items-center gap-4 bg-blue-200 p-3 rounded-lg hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
                 href="https://www.linkedin.com/in/moziful/" target="_blank">
                 <i class="fa-brands fa-linkedin text-blue-600 text-3xl"></i>
                 <span class="font-semibold text-black">LinkedIn</span>
             </a>
-
+            <a class="flex items-center gap-4 bg-blue-200 p-3 rounded-lg hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=mhmoni@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope text-blue-400 text-3xl"></i>
+                <span class="font-semibold text-black">Email</span>
+            </a>
             <a class="flex items-center gap-4 bg-blue-200 p-3 rounded-lg hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
                 href="https://github.com/moziful" target="_blank">
                 <i class="fa-brands fa-github text-gray-800 text-3xl"></i>
                 <span class="font-semibold text-black">GitHub</span>
             </a>
-
             <a class="flex items-center gap-4 bg-blue-200 p-3 rounded-lg hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
                 href="https://www.facebook.com/moziful" target="_blank">
                 <i class="fa-brands fa-facebook text-blue-500 text-3xl"></i>
                 <span class="font-semibold text-black">Facebook</span>
             </a>
-
             <a class="flex items-center gap-4 bg-blue-200 p-3 rounded-lg hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
                 href="https://wa.me/+8801708333213" target="_blank">
                 <i class="fa-brands fa-whatsapp text-green-500 text-3xl"></i>
                 <span class="font-semibold text-black">WhatsApp</span>
-            </a>
-
-            <a class="flex items-center gap-4 bg-blue-200 p-3 rounded-lg hover:bg-blue-300 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=mhmoni@gmail.com" target="_blank">
-                <i class="fa-solid fa-envelope text-blue-400 text-3xl"></i>
-                <span class="font-semibold text-black">Email</span>
             </a>
         </div>
     </div>
